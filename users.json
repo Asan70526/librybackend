@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "admin",
+      "email": "admin@libry.com",
+      "password": "admin123",
+      "role": "admin",
+      "favoriteBooks": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "readHistory": [
+        13,
+        5,
+        86,
+        88,
+        7,
+        8,
+        21,
+        4,
+        3,
+        6,
+        1
+      ]
+    },
+    {
+      "id": 1772785498043,
+      "login": "Asan",
+      "email": "asan70526@gmail.com",
+      "password": "asan70526@gmail.com",
+      "role": "user",
+      "readHistory": [
+        2
+      ],
+      "favoriteBooks": [
+        4
+      ]
+    }
+  ]
+}
