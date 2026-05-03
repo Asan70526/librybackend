@@ -490,7 +490,7 @@ app.use("/libry/backend/uploads", express.static("uploads"));
 app.use("/css", express.static("../css"));
 app.use("/js", express.static("../js"));
 app.use("/texture", express.static("../texture"));
-app.use("/uploads", express.static("uploads"));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 /* =========================
    START
