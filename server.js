@@ -486,11 +486,10 @@ app.use(express.static("../frontend"));
 app.use("/libry/css", express.static("../css"));
 app.use("/libry/js", express.static("../js"));
 app.use("/libry/texture", express.static("../texture"));
-app.use("/libry/backend/uploads", express.static("uploads"));
 app.use("/css", express.static("../css"));
 app.use("/js", express.static("../js"));
 app.use("/texture", express.static("../texture"));
-app.use("/uploads", express.static("uploads"));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 /* =========================
    START
